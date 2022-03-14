@@ -416,7 +416,7 @@ $labelbox = new-Object 'System.Windows.Forms.Form'
 	$labelbox.MinimumSize = '1190, 750'
 	$labelbox.Name = 'formWindowsToolbox'
 	$labelbox.ShowIcon = $False
-	$labelbox.Text = 'Windows ToolBox'
+	$labelbox.Text = 'Windows ToolBox By H4x0r Abub4kk3r'
 	$labelbox.TransparencyKey = 'White'
 
 $StartMenuTilescleanup = New-Object 'System.Window.Forms.Label'
@@ -769,7 +769,7 @@ $labelbox.add_FormClosed($Form_Cleanup_FormClosed)
 
 $buttonDebloat.Add_Click({
 
-    $buttonDebloat.BackColor = '255, 160, 160'
+    $buttonDebloat.BackColor = '135, 216, 255'
     $rebloat.BackColor = '255, 100, 100'
     $formWindowsToolbox.WindowState = 1
 $Bloatware = @(
@@ -913,7 +913,7 @@ $Paint3Dstuff = @(
 
 $buttonBoost.Add_Click({
    
-    $buttonBoost.BackColor = '255, 160, 160'
+    $buttonBoost.BackColor = '135, 216, 255'
     $Undo.BackColor = '255, 100, 100'
     $formWindowsToolbox.WindowState = 1
     Write-Host "Creating Restore Point incase something bad happens"
@@ -1066,7 +1066,7 @@ $buttonBoost.Add_Click({
 
 $Undo.Add_Click({
 
-    $Undo.BackColor = '255, 160, 160'
+    $Undo.BackColor = '135, 216, 255'
     $buttonBoost.BackColor = '255, 100, 100'
     Write-Host "Enabling Telemetry..."
     Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection" -Name "AllowTelemetry" -Type DWord -Value 1
@@ -1156,7 +1156,7 @@ $Undo.Add_Click({
 
 $buttonFixPhoneApp.Add_Click({
 
-    $buttonFixPhoneApp.BackColor = '255, 160, 160'
+    $buttonFixPhoneApp.BackColor = '135, 216, 255'
     Write-Host "`nEnable needed data collection for Your Phone..."
     Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\System" -Name "EnableMmx" -Type DWord -Value 1
     Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\System" -Name "EnableCdp" -Type DWord -Value 1
@@ -1174,7 +1174,7 @@ $buttonFixPhoneApp.Add_Click({
 
 $buttonEnableLocation.Add_Click({
 
-    $buttonEnableLocation.BackColor = '255, 160, 160'
+    $buttonEnableLocation.BackColor = '135, 216, 255'
  	Write-Host "`nEnabling Location Provider..."
 	Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\LocationAndSensors" -Name "DisableWindowsLocationProvider" -ErrorAction SilentlyContinue
 	Write-Host "Enabling Location Scripting..."
@@ -1197,7 +1197,7 @@ $buttonEnableLocation.Add_Click({
 
 $buttonBalancedMode.Add_Click({
 
-    $buttonBalancedMode.BackColor = '255, 160, 160'
+    $buttonBalancedMode.BackColor = '135, 216, 255'
     $buttonUltraPowerMode.BackColor = '255, 100, 100'
     $A = (powercfg.exe -l | findstr -i Balanced).split()
     Powercfg.exe /S $A[3]
@@ -1209,7 +1209,7 @@ $buttonBalancedMode.Add_Click({
 
 $buttonUltraPowerMode.Add_Click({
 
-    $buttonUltraPowerMode.BackColor = '255, 160, 160'
+    $buttonUltraPowerMode.BackColor = '135, 216, 255'
     $buttonBalancedMode.BackColor = '255, 100, 100'
     $powermode1 = Powercfg.exe /L
      if("$powermode1" -notmatch "Ultimate")
@@ -1242,7 +1242,7 @@ $buttonUltraPowerMode.Add_Click({
 
 $buttonDarkMode.Add_Click({
 
-    $buttonDarkMode.BackColor = '255, 160, 160'
+    $buttonDarkMode.BackColor = '135, 216, 255'
     $buttonLightMode.BackColor = '255, 100, 100'
     Write-Host ""
     Write-Host "Switching to Dark Mode"
@@ -1254,7 +1254,7 @@ $buttonDarkMode.Add_Click({
 
 $buttonLightMode.Add_Click({
 
-    $buttonLightMode.BackColor = '255, 160, 160'
+    $buttonLightMode.BackColor = '135, 216, 255'
     $buttonDarkMode.BackColor = '255, 100, 100'
     Write-Host ""
     Write-Host "Switching to Light Mode"
@@ -1266,7 +1266,7 @@ $buttonLightMode.Add_Click({
 
 $buttonFastAnimation.Add_Click({
 
-    $buttonFastAnimation.BackColor = '255, 160, 160'
+    $buttonFastAnimation.BackColor = '135, 216, 255'
     Write-Host ""   
     Write-Host "Adjusting visual effects for performance..."
 	Set-ItemProperty -Path "HKCU:\Control Panel\Desktop" -Name "DragFullWindows" -Type String -Value 0
@@ -1286,7 +1286,7 @@ $buttonFastAnimation.Add_Click({
 
 $buttonRemoveMSStore.Add_Click({
         
-    $buttonRemoveMSStore.BackColor = '255, 160, 160'
+    $buttonRemoveMSStore.BackColor = '135, 216, 255'
     $ReinstallMsStore.BackColor = '255, 100, 100'       
     Write-Host "Removing Microsoft Store"
     Get-AppxPackage -Name "*Microsoft.WindowsStore*"| Remove-AppxPackage
@@ -1297,7 +1297,7 @@ $buttonRemoveMSStore.Add_Click({
 
 $buttonUninstallOnedrive.Add_Click({
     
-    $buttonUninstallOnedrive.BackColor = '255, 160, 160'
+    $buttonUninstallOnedrive.BackColor = '135, 216, 255'
     $ReinstallOndrive.BackColor = '255, 100, 100'
     $formWindowsToolbox.WindowState = 1
     Write-Host ""
@@ -1335,7 +1335,7 @@ $buttonUninstallOnedrive.Add_Click({
 
 $buttonActivateMSOffice.Add_Click({
 
-    $buttonActivateMSOffice.BackColor = '255, 160, 160'
+    $buttonActivateMSOffice.BackColor = '135, 216, 255'
     
     $formWindowsToolbox.WindowState = 1
 
@@ -1690,7 +1690,7 @@ $formWindowsToolbox.WindowState = 0
 
 $buttonActivateWindow.Add_Click({
 
-    $buttonActivateWindow.BackColor = '255, 160, 160'
+    $buttonActivateWindow.BackColor = '135, 216, 255'
     $formWindowsToolbox.WindowState = 1
 
         $Sysdir = [System.Environment]::SystemDirectory
@@ -1771,7 +1771,7 @@ Microsoft Key Management Service(Server) didn't able to activate your window.
 
 $buttonDefaultSetting.Add_Click({
 
-    $buttonDefaultSetting.BackColor = '255, 160, 160'
+    $buttonDefaultSetting.BackColor = '135, 216, 255'
     $buttonSecurityUpdateOnly.BackColor = '255, 100, 100'
     Write-Host ""
     Write-Host "Enabling driver offering through Windows Update..."
@@ -1791,7 +1791,7 @@ $buttonDefaultSetting.Add_Click({
 
 $buttonSecurityUpdateOnly.Add_Click({
 
-    $buttonSecurityUpdateOnly.BackColor = '255, 160, 160'
+    $buttonSecurityUpdateOnly.BackColor = '135, 216, 255'
     $buttonDefaultSetting.BackColor = '255, 100, 100'
         Write-Host ""
     Write-Host "Disabling driver offering through Windows Update..."
@@ -1822,7 +1822,7 @@ $buttonSecurityUpdateOnly.Add_Click({
 
 $buttonenableCortana.Add_Click({
 
-    $buttonenableCortana.BackColor = '255, 160, 160'
+    $buttonenableCortana.BackColor = '135, 216, 255'
     $buttondisableCortana.BackColor = '255, 100, 100'
         Write-Host "`nEnabling Cortana..."
 	Remove-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Personalization\Settings" -Name "AcceptedPrivacyPolicy" -ErrorAction SilentlyContinue
@@ -1841,7 +1841,7 @@ $buttonenableCortana.Add_Click({
 
 $buttondisableCortana.Add_Click({
 
-    $buttondisableCortana.BackColor = '255, 160, 160'
+    $buttondisableCortana.BackColor = '135, 216, 255'
     $buttonenableCortana.BackColor = '255, 100, 100'
        Write-Host "`nDisabling Cortana..."
 	If (!(Test-Path "HKCU:\SOFTWARE\Microsoft\Personalization\Settings")) {
@@ -1867,7 +1867,7 @@ $buttondisableCortana.Add_Click({
 
 $buttonenableActionCenter.Add_Click({
 
-    $buttonenableActionCenter.BackColor = '255, 160, 160'
+    $buttonenableActionCenter.BackColor = '135, 216, 255'
     $buttondisableActionCenter.BackColor = '255, 100, 100'
     Write-Host "`nEnabling Action Center..."
 	Remove-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Windows\Explorer" -Name "DisableNotificationCenter" -ErrorAction SilentlyContinue
@@ -1879,7 +1879,7 @@ $buttonenableActionCenter.Add_Click({
 
 $buttondisableActionCenter.Add_Click({
 
-    $buttondisableActionCenter.BackColor = '255, 160, 160'
+    $buttondisableActionCenter.BackColor = '135, 216, 255'
     $buttonenableActionCenter.BackColor = '255, 100, 100'
     Write-Host "`nDisabling Action Center..."
 	If (!(Test-Path "HKCU:\SOFTWARE\Policies\Microsoft\Windows\Explorer")) {
@@ -1894,7 +1894,7 @@ $buttondisableActionCenter.Add_Click({
 
 $buttonenableWindowsSearch.Add_Click({
 
-    $buttonenableWindowsSearch.BackColor = '255, 160, 160'
+    $buttonenableWindowsSearch.BackColor = '135, 216, 255'
     $buttondisableWindowsSearch.BackColor = '255, 100, 100'
     Write-Host "`nRestoring Windows Search..."
 	Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Search" -Name "BingSearchEnabled" -Type DWord -Value "1"
@@ -1914,7 +1914,7 @@ $buttonenableWindowsSearch.Add_Click({
 
 $buttondisableWindowsSearch.Add_Click({
 
-    $buttondisableWindowsSearch.BackColor = '255, 160, 160'
+    $buttondisableWindowsSearch.BackColor = '135, 216, 255'
     $buttonenableWindowsSearch.BackColor = '255, 100, 100'
     Write-Host "`nDisabling Bing Search in Start Menu..."
 	Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Search" -Name "BingSearchEnabled" -Type DWord -Value 0
@@ -1934,7 +1934,7 @@ $buttondisableWindowsSearch.Add_Click({
 
 
 $buttonenableBackgroundApps.Add_Click({
-    $buttonenableBackgroundApps.BackColor = '255, 160, 160'
+    $buttonenableBackgroundApps.BackColor = '135, 216, 255'
     $buttondisableBackgroundApps.BackColor = '255, 100, 100'
     Write-Host "`nAllowing Background Apps..."
 	Get-ChildItem -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications" -Exclude "Microsoft.Windows.Cortana*" | ForEach {
@@ -1948,7 +1948,7 @@ $buttonenableBackgroundApps.Add_Click({
 
 
 $buttondisableBackgroundApps.Add_Click({
-    $buttondisableBackgroundApps.BackColor = '255, 160, 160'
+    $buttondisableBackgroundApps.BackColor = '135, 216, 255'
     $buttonenableBackgroundApps.BackColor = '255, 100, 100'
     Write-Host "`nDisabling Background application access..."
 	Get-ChildItem -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications" -Exclude "Microsoft.Windows.Cortana*" | ForEach {
@@ -1963,7 +1963,7 @@ $buttondisableBackgroundApps.Add_Click({
 
 $buttonenableClipboardHistory.Add_Click({
 
-    $buttonenableClipboardHistory.BackColor = '255, 160, 160'
+    $buttonenableClipboardHistory.BackColor = '135, 216, 255'
     $buttondisableClipboardHistory.BackColor = '135, 216, 255'
     Write-Host "`nRestoring Clipboard History..."
         
@@ -1976,7 +1976,7 @@ $buttonenableClipboardHistory.Add_Click({
 
 $buttondisableClipboardHistory.Add_Click({
 
-    $buttondisableClipboardHistory.BackColor = '255, 160, 160'
+    $buttondisableClipboardHistory.BackColor = '135, 216, 255'
     $buttonenableClipboardHistory.BackColor = '135, 216, 255'
     	Write-Host "`nDisabling Clipboard History..."
 	Remove-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Clipboard" -Name "EnableClipboardHistory" -ErrorAction SilentlyContinue
@@ -1988,7 +1988,7 @@ $buttondisableClipboardHistory.Add_Click({
 
 $buttonenableSetTimerResolution.Add_Click({
 
-$buttonenableSetTimerResolution.BackColor = '255, 160, 160'
+$buttonenableSetTimerResolution.BackColor = '135, 216, 255'
 $buttondisableSetTimerResolution.BackColor = '135, 216, 255'
 $nonea = bcdedit /set useplatformclock no
 $nonea = bcdedit /set useplatformtick yes
@@ -2014,7 +2014,7 @@ Write-Host "Current Timer Res: $ntqtrcur `r`nTimer Res Minimum: $ntqtrmin `r`nTi
 
 
 $buttondisableSetTimerResolution.Add_Click({
-$buttondisableSetTimerResolution.BackColor = '255, 160, 160'
+$buttondisableSetTimerResolution.BackColor = '135, 216, 255'
 $buttonenableSetTimerResolution.BackColor = '135, 216, 255'
 $nonea = bcdedit /set useplatformclock no
 $nonea = bcdedit /set useplatformtick yes
@@ -2046,7 +2046,7 @@ $yesno = $wshell.Popup("Deleting Temporary files is safe, because Windows won't 
     
 if($yesno -eq 6)
 {   
-    $buttonDelete.BackColor = '255, 160, 160'
+    $buttonDelete.BackColor = '135, 216, 255'
     Write-Host "`nClearing up temporary files. please Wait..."
         $tempfolders = @( "C:\Windows\Temp\*", "C:\Windows\Prefetch\*", "$env:temp\*" )
         Remove-Item $tempfolders -recurse -force
@@ -2073,11 +2073,11 @@ if($yesno -eq 6)
 
 $buttonCreateRestorePoint.Add_Click({
 
-    $buttonCreateRestorePoint.BackColor = '255, 160, 160'
+    $buttonCreateRestorePoint.BackColor = '135, 216, 255'
     $formWindowsToolbox.WindowState = 1
     Enable-ComputerRestore -Drive "C:\"
     REG ADD "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore" /V "SystemRestorePointCreationFrequency" /T REG_DWORD /D 0 /F
-    Checkpoint-Computer -Description "Windows Toolbox" -RestorePointType "MODIFY_SETTINGS"
+    Checkpoint-Computer -Description "Windows Toolbox By H4x0r Abub4kk3r" -RestorePointType "MODIFY_SETTINGS"
     Write-Host 'RestorePoint has been Created' -ForegroundColor green
     $formWindowsToolbox.WindowState = 0
 
@@ -2086,7 +2086,7 @@ $buttonCreateRestorePoint.Add_Click({
 
 $buttonRestore.Add_Click({
 
-    $buttonRestore.BackColor = '255, 160, 160'
+    $buttonRestore.BackColor = '135, 216, 255'
     Start rstrui.exe
 
 })
@@ -2094,7 +2094,7 @@ $buttonRestore.Add_Click({
 
 $StartMenuTilescleanup.Add_Click({
 
-$StartMenuTilescleanup.BackColor = '255, 160, 160'
+$StartMenuTilescleanup.BackColor = '135, 216, 255'
 $formWindowsToolbox.WindowState = 1
 write-host "`nCleaning up the StartMenu Tiles for the default user"
 Set-Content -Path 'C:\Users\Default\AppData\Local\Microsoft\Windows\Shell\DefaultLayouts.xml' -Value '<LayoutModificationTemplate xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout" Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">'
@@ -2160,7 +2160,7 @@ $formWindowsToolbox.WindowState = 0
 
 $rebloat.Add_Click({
 
-    $rebloat.BackColor = '255, 160, 160'
+    $rebloat.BackColor = '135, 216, 255'
     $buttonDebloat.BackColor = '255, 100, 100'
     $formWindowsToolbox.WindowState = 1
 $Bloatware = @(
@@ -2244,7 +2244,7 @@ $Bloatware = @(
 
 $ReinstallMsStore.Add_Click({
 
-    $ReinstallMsStore.BackColor = '255, 160, 160'
+    $ReinstallMsStore.BackColor = '135, 216, 255'
     $buttonRemoveMSStore.BackColor = '255, 100, 100'
     $formWindowsToolbox.WindowState = 1
     Write-Host "Reinstalling Microsoft Store. Please Wait..."
@@ -2257,7 +2257,7 @@ $ReinstallMsStore.Add_Click({
 
 $ReinstallOndrive.Add_Click({
 
-    $ReinstallOndrive.BackColor = '255, 160, 160'
+    $ReinstallOndrive.BackColor = '135, 216, 255'
     $buttonUninstallOnedrive.BackColor = '255, 100, 100'
     Write-Host "Reinstalling Onedrive. Please Wait..."
     Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\OneDrive" -Name "DisableFileSyncNGSC" -ErrorAction SilentlyContinue
@@ -2273,7 +2273,7 @@ $ReinstallOndrive.Add_Click({
 
 $labelboxupdatereset.Add_Click({
 
-    $labelboxupdatereset.BackColor = '255, 160, 160'
+    $labelboxupdatereset.BackColor = '135, 216, 255'
     $formWindowsToolbox.WindowState = 1
     Write-Host "1. Stopping Windows Update Services..." 
     Stop-Service -Name BITS 

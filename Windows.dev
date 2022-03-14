@@ -14,7 +14,7 @@ Write-Host "
       |____| \____/ \____/|____/  |______  /\____/__/\_ \
                                          \/            \/
 
- -------------------------------------------------------------
+ -----------------------------------------H4x0rAbub4kk3r-----------
 
 " -ForegroundColor green
 Write-Host "Initializing Window ToolBox..." -ForegroundColor green
@@ -32,7 +32,7 @@ $form = new-Object 'System.Window.Forms.Forms'
 	$form.MinimumSize = '1190, 750'
 	$form.Name = 'formWindowsToolbox'
 	$form.ShowIcon = $False
-	$form.Text = 'Windows ToolBox'
+	$form.Text = 'Windows ToolBox By Abubakkar'
 	$form.TransparencyKey = 'White'
 
 
@@ -87,7 +87,7 @@ $labelAdditionalOptions = New-Object 'System.Window.Forms.Label'
 	$labelAdditionalOptions.UseCompatibleTextRendering = $True
 
 $buttonLightMode = New-Object 'System.Window.Forms.Label'
-	$buttonLightMode.BackColor = '250, 100, 100'
+	$buttonLightMode.BackColor = '135, 216, 255'
 	$buttonLightMode.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonLightMode.Location = '199, 374'
 	$buttonLightMode.Name = 'buttonLightMode'
@@ -98,7 +98,7 @@ $buttonLightMode = New-Object 'System.Window.Forms.Label'
 	$buttonLightMode.UseCompatibleTextRendering = $True
 
 $buttonDarkMode = New-Object 'System.Window.Forms.Label'
-	$buttonDarkMode.BackColor = '250, 100, 100'
+	$buttonDarkMode.BackColor = '135, 216, 255'
 	$buttonDarkMode.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonDarkMode.Location = '21, 374'
 	$buttonDarkMode.Name = 'buttonDarkMode'
@@ -109,7 +109,7 @@ $buttonDarkMode = New-Object 'System.Window.Forms.Label'
 	$buttonDarkMode.UseCompatibleTextRendering = $True
 
 $buttonFastAnimation = New-Object 'System.Window.Forms.Label'
-	$buttonFastAnimation.BackColor = '250, 100, 100'
+	$buttonFastAnimation.BackColor = '135, 216, 255'
 	$buttonFastAnimation.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonFastAnimation.Location = '378, 374'
 	$buttonFastAnimation.Name = 'buttonFastAnimation'
@@ -120,7 +120,7 @@ $buttonFastAnimation = New-Object 'System.Window.Forms.Label'
 	$buttonFastAnimation.UseCompatibleTextRendering = $True
 
 $buttonenableClipboardHistory = New-Object 'System.Window.Forms.Label'
-	$buttonenableClipboardHistory.BackColor = '250, 100, 100'
+	$buttonenableClipboardHistory.BackColor = '135, 216, 255'
 	$buttonenableClipboardHistory.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonenableClipboardHistory.Location = '950, 471'
 	$buttonenableClipboardHistory.Name = 'buttonenableClipboardHistory'
@@ -131,7 +131,7 @@ $buttonenableClipboardHistory = New-Object 'System.Window.Forms.Label'
 	$buttonenableClipboardHistory.UseCompatibleTextRendering = $True
 
 $buttonenableBackgroundApps = New-Object 'System.Window.Forms.Label'
-	$buttonenableBackgroundApps.BackColor = '250, 100, 100'
+	$buttonenableBackgroundApps.BackColor = '135, 216, 255'
 	$buttonenableBackgroundApps.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonenableBackgroundApps.Location = '950, 438'
 	$buttonenableBackgroundApps.Name = 'buttonenableBackgroundApps'
@@ -142,7 +142,7 @@ $buttonenableBackgroundApps = New-Object 'System.Window.Forms.Label'
 	$buttonenableBackgroundApps.UseCompatibleTextRendering = $True
 
 $buttonenableActionCenter = New-Object 'System.Window.Forms.Label'
-	$buttonenableActionCenter.BackColor = '250, 100, 100'
+	$buttonenableActionCenter.BackColor = '135, 216, 255'
 	$buttonenableActionCenter.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonenableActionCenter.Location = '950, 372'
 	$buttonenableActionCenter.Name = 'buttonenableActionCenter'
@@ -153,7 +153,7 @@ $buttonenableActionCenter = New-Object 'System.Window.Forms.Label'
 	$buttonenableActionCenter.UseCompatibleTextRendering = $True
 
 $buttonenableWindowsSearch = New-Object 'System.Window.Forms.Label'
-	$buttonenableWindowsSearch.BackColor = '250, 100, 100'
+	$buttonenableWindowsSearch.BackColor = '135, 216, 255'
 	$buttonenableWindowsSearch.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonenableWindowsSearch.Location = '950, 405'
 	$buttonenableWindowsSearch.Name = 'buttonenableWindowsSearch'
@@ -164,7 +164,7 @@ $buttonenableWindowsSearch = New-Object 'System.Window.Forms.Label'
 	$buttonenableWindowsSearch.UseCompatibleTextRendering = $True
 
 $buttonenableCortana = New-Object 'System.Window.Forms.Label'
-	$buttonenableCortana.BackColor = '250, 100, 100'
+	$buttonenableCortana.BackColor = '135, 216, 255'
 	$buttonenableCortana.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonenableCortana.Location = '950, 339'
 	$buttonenableCortana.Name = 'buttonenableCortana'
@@ -175,7 +175,7 @@ $buttonenableCortana = New-Object 'System.Window.Forms.Label'
 	$buttonenableCortana.UseCompatibleTextRendering = $True
 
 $buttonSecurityUpdateOnly = New-Object 'System.Window.Forms.Label'
-	$buttonSecurityUpdateOnly.BackColor = '250, 100, 100'
+	$buttonSecurityUpdateOnly.BackColor = '135, 216, 255'
 	$buttonSecurityUpdateOnly.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonSecurityUpdateOnly.Location = '855, 210'
 	$buttonSecurityUpdateOnly.Name = 'buttonSecurityUpdateOnly'
@@ -186,7 +186,7 @@ $buttonSecurityUpdateOnly = New-Object 'System.Window.Forms.Label'
 	$buttonSecurityUpdateOnly.UseCompatibleTextRendering = $True
 
 $buttonUninstallOnedrive = New-Object 'System.Window.Forms.Label'
-	$buttonUninstallOnedrive.BackColor = '250, 100, 100'
+	$buttonUninstallOnedrive.BackColor = '135, 216, 255'
 	$buttonUninstallOnedrive.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonUninstallOnedrive.Location = '288, 410'
 	$buttonUninstallOnedrive.Name = 'buttonUninstallOnedrive'
@@ -197,7 +197,7 @@ $buttonUninstallOnedrive = New-Object 'System.Window.Forms.Label'
 	$buttonUninstallOnedrive.UseCompatibleTextRendering = $True
 
 $buttonRestore = New-Object 'System.Window.Forms.Label'
-	$buttonRestore.BackColor = '250, 100, 100'
+	$buttonRestore.BackColor = '135, 216, 255'
 	$buttonRestore.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonRestore.Location = '1014, 923'
 	$buttonRestore.Name = 'buttonRestore'
@@ -208,7 +208,7 @@ $buttonRestore = New-Object 'System.Window.Forms.Label'
 	$buttonRestore.UseCompatibleTextRendering = $True
 
 $buttonCreateRestorePoint = New-Object 'System.Window.Forms.Label'
-	$buttonCreateRestorePoint.BackColor = '250, 100, 100'
+	$buttonCreateRestorePoint.BackColor = '135, 216, 255'
 	$buttonCreateRestorePoint.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonCreateRestorePoint.Location = '950, 763'
 	$buttonCreateRestorePoint.Name = 'buttonCreateRestorePoint'
@@ -219,7 +219,7 @@ $buttonCreateRestorePoint = New-Object 'System.Window.Forms.Label'
 	$buttonCreateRestorePoint.UseCompatibleTextRendering = $Tru
 
 $buttonActivateWindow = New-Object 'System.Window.Forms.Label'
-	$buttonActivateWindow.BackColor = '250, 100, 100'
+	$buttonActivateWindow.BackColor = '135, 216, 255'
 	$buttonActivateWindow.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonActivateWindow.Location = '422, 857'
 	$buttonActivateWindow.Name = 'buttonActivateWindow'
@@ -230,7 +230,7 @@ $buttonActivateWindow = New-Object 'System.Window.Forms.Label'
 	$buttonActivateWindow.UseCompatibleTextRendering = $True
 
 $buttonActivateMSoffice = New-Object 'System.Window.Forms.Label'
-	$buttonActivateMSoffice.BackColor = '250, 100, 100'
+	$buttonActivateMSoffice.BackColor = '135, 216, 255'
 	$buttonActivateMSoffice.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonActivateMSoffice.Location = '422, 697'
 	$buttonActivateMSoffice.Name = 'buttonActivateMSoffice'
@@ -241,7 +241,7 @@ $buttonActivateMSoffice = New-Object 'System.Window.Forms.Label'
 	$buttonActivateMSoffice.UseCompatibleTextRendering = $True
 
 $buttondisableClipboardHistory = New-Object 'System.Window.Forms.Label'
-	$buttondisableClipboardHistory.BackColor = '250, 100, 100'
+	$buttondisableClipboardHistory.BackColor = '135, 216, 255'
 	$buttondisableClipboardHistory.Font = 'Microsoft Sans Serif, 12pt'
 	$buttondisableClipboardHistory.Location = '1044, 471'
 	$buttondisableClipboardHistory.Name = 'buttondisableClipboardHistory'
@@ -253,7 +253,7 @@ $buttondisableClipboardHistory = New-Object 'System.Window.Forms.Label'
 
 
 $buttonenableSetTimerResolution = New-Object 'System.Window.Forms.Label'
-	$buttonenableSetTimerResolution.BackColor = '250, 100, 100'
+	$buttonenableSetTimerResolution.BackColor = '135, 216, 255'
 	$buttonenableSetTimerResolution.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonenableSetTimerResolution.Location = '950, 504'
 	$buttonenableSetTimerResolution.Name = 'buttonenableSetTimerResolution'
@@ -264,7 +264,7 @@ $buttonenableSetTimerResolution = New-Object 'System.Window.Forms.Label'
 	$buttonenableSetTimerResolution.UseCompatibleTextRendering = $True
 
 $buttondisableSetTimerResolution = New-Object 'System.Window.Forms.Label'
-	$buttondisableSetTimerResolution.BackColor = '250, 100, 100'
+	$buttondisableSetTimerResolution.BackColor = '135, 216, 255'
 	$buttondisableSetTimerResolution.Font = 'Microsoft Sans Serif, 12pt'
 	$buttondisableSetTimerResolution.Location = '1044, 504'
 	$buttondisableSetTimerResolution.Name = 'buttondisableSetTimerResolution'
@@ -275,7 +275,7 @@ $buttondisableSetTimerResolution = New-Object 'System.Window.Forms.Label'
 	$buttondisableSetTimerResolution.UseCompatibleTextRendering = $True
 
 $buttonDelete = New-Object 'System.Window.Forms.Label'
-	$buttonDelete.BackColor = '250, 100, 100'
+	$buttonDelete.BackColor = '135, 216, 255'
 	$buttonDelete.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonDelete.Location = '950, 537'
 	$buttonDelete.Name = 'buttonDelete'
@@ -286,7 +286,7 @@ $buttonDelete = New-Object 'System.Window.Forms.Label'
 	$buttonDelete.UseCompatibleTextRendering = $True
 
 $buttondisableBackgroundApps = New-Object 'System.Window.Forms.Label'
-	$buttondisableBackgroundApps.BackColor = '250, 100, 100'
+	$buttondisableBackgroundApps.BackColor = '135, 216, 255'
 	$buttondisableBackgroundApps.Font = 'Microsoft Sans Serif, 12pt'
 	$buttondisableBackgroundApps.Location = '1044, 438'
 	$buttondisableBackgroundApps.Name = 'buttondisableBackgroundApps'
@@ -297,7 +297,7 @@ $buttondisableBackgroundApps = New-Object 'System.Window.Forms.Label'
 	$buttondisableBackgroundApps.UseCompatibleTextRendering = $True
 
 $buttondisableActionCenter = New-Object 'System.Window.Forms.Label'
-	$buttondisableActionCenter.BackColor = '250, 100, 100'
+	$buttondisableActionCenter.BackColor = '135, 216, 255'
 	$buttondisableActionCenter.Font = 'Microsoft Sans Serif, 12pt'
 	$buttondisableActionCenter.Location = '1044, 372'
 	$buttondisableActionCenter.Name = 'buttondisableActionCenter'
@@ -308,7 +308,7 @@ $buttondisableActionCenter = New-Object 'System.Window.Forms.Label'
 	$buttondisableActionCenter.UseCompatibleTextRendering = $True
 
 $buttondisableWindowsSearch = New-Object 'System.Window.Forms.Label'
-	$buttondisableWindowsSearch.BackColor = '250, 100, 100'
+	$buttondisableWindowsSearch.BackColor = '135, 216, 255'
 	$buttondisableWindowsSearch.Font = 'Microsoft Sans Serif, 12pt'
 	$buttondisableWindowsSearch.Location = '1044, 405'
 	$buttondisableWindowsSearch.Name = 'buttondisableWindowsSearch'
@@ -319,7 +319,7 @@ $buttondisableWindowsSearch = New-Object 'System.Window.Forms.Label'
 	$buttondisableWindowsSearch.UseCompatibleTextRendering = $True
 
 $buttondisableCortana = New-Object 'System.Window.Forms.Label'
-	$buttondisableCortana.BackColor = '250, 100, 100'
+	$buttondisableCortana.BackColor = '135, 216, 255'
 	$buttondisableCortana.Font = 'Microsoft Sans Serif, 12pt'
 	$buttondisableCortana.Location = '1044, 339'
 	$buttondisableCortana.Name = 'buttondisableCortana'
@@ -330,7 +330,7 @@ $buttondisableCortana = New-Object 'System.Window.Forms.Label'
 	$buttondisableCortana.UseCompatibleTextRendering = $True
 
 $buttonRemoveMSStore = New-Object 'System.Window.Forms.Label'
-	$buttonRemoveMSStore.BackColor = '250, 100, 100'
+	$buttonRemoveMSStore.BackColor = '135, 216, 255'
 	$buttonRemoveMSStore.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonRemoveMSStore.Location = '21, 410'
 	$buttonRemoveMSStore.Name = 'buttonRemoveMSStore'
@@ -341,7 +341,7 @@ $buttonRemoveMSStore = New-Object 'System.Window.Forms.Label'
 	$buttonRemoveMSStore.UseCompatibleTextRendering = $True
 
 $buttonDefaultSetting = New-Object 'System.Window.Forms.Label'
-	$buttonDefaultSetting.BackColor = '250, 100, 100'
+	$buttonDefaultSetting.BackColor = '135, 216, 255'
 	$buttonDefaultSetting.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonDefaultSetting.Location = '575, 210'
 	$buttonDefaultSetting.Name = 'buttonDefaultSetting'
@@ -352,7 +352,7 @@ $buttonDefaultSetting = New-Object 'System.Window.Forms.Label'
 	$buttonDefaultSetting.UseCompatibleTextRendering = $True
 
 $buttonBalancedMode = New-Object 'System.Window.Forms.Label'
-	$buttonBalancedMode.BackColor = '250, 100, 100'
+	$buttonBalancedMode.BackColor = '135, 216, 255'
 	$buttonBalancedMode.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonBalancedMode.Location = '22, 338'
 	$buttonBalancedMode.Name = 'buttonBalancedMode'
@@ -363,7 +363,7 @@ $buttonBalancedMode = New-Object 'System.Window.Forms.Label'
 	$buttonBalancedMode.UseCompatibleTextRendering = $True
 
 $buttonUltraPowerMode = New-Object 'System.Window.Forms.Label'
-	$buttonUltraPowerMode.BackColor = '250, 100, 100'
+	$buttonUltraPowerMode.BackColor = '135, 216, 255'
 	$buttonUltraPowerMode.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonUltraPowerMode.Location = '288, 338'
 	$buttonUltraPowerMode.Name = 'buttonUltraPowerMode'
@@ -374,7 +374,7 @@ $buttonUltraPowerMode = New-Object 'System.Window.Forms.Label'
 	$buttonUltraPowerMode.UseCompatibleTextRendering = $True
 
 $buttonDebloat = New-Object 'System.Window.Forms.Label'
-	$buttonDebloat.BackColor = '250, 100, 100'
+	$buttonDebloat.BackColor = '135, 216, 255'
 	$buttonDebloat.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonDebloat.Location = '21, 210'
 	$buttonDebloat.Name = 'buttonBoost'
@@ -385,7 +385,7 @@ $buttonDebloat = New-Object 'System.Window.Forms.Label'
 	$buttonDebloat.UseCompatibleTextRendering = $True
 
 $buttonBoost = New-Object 'System.Window.Forms.Label'
-	$buttonBoost.BackColor = '250, 100, 100'
+	$buttonBoost.BackColor = '135, 216, 255'
 	$buttonBoost.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonBoost.Location = '320, 210'
 	$buttonBoost.Name = 'buttonBoost'
@@ -396,7 +396,7 @@ $buttonBoost = New-Object 'System.Window.Forms.Label'
 	$buttonBoost.UseCompatibleTextRendering = $True
 
 $Undo = New-Object 'System.Window.Forms.Label'
-	$Undo.BackColor = '250, 100, 100'
+	$Undo.BackColor = '135, 216, 255'
 	$Undo.Font = 'Microsoft Sans Serif, 12pt'
 	$Undo.Location = '441, 210'
 	$Undo.Name = 'buttonBoost'
@@ -420,7 +420,7 @@ $labelbox = new-Object 'System.Windows.Forms.Form'
 	$labelbox.TransparencyKey = 'White'
 
 $StartMenuTilescleanup = New-Object 'System.Window.Forms.Label'
-	$StartMenuTilescleanup.BackColor = '250, 100, 100'
+	$StartMenuTilescleanup.BackColor = '135, 216, 255'
 	$StartMenuTilescleanup.Font = 'Microsoft Sans Serif, 12pt'
 	$StartMenuTilescleanup.Location = '22, 923'
 	$StartMenuTilescleanup.Name = 'StartMenuTilescleanup'
@@ -431,7 +431,7 @@ $StartMenuTilescleanup = New-Object 'System.Window.Forms.Label'
 	$StartMenuTilescleanup.UseCompatibleTextRendering = $True
 
 $buttonFixPhoneApp = New-Object 'System.Window.Forms.Label'
-	$buttonFixPhoneApp.BackColor = '250, 100, 100'
+	$buttonFixPhoneApp.BackColor = '135, 216, 255'
 	$buttonFixPhoneApp.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonFixPhoneApp.Location = '281, 923'
 	$buttonFixPhoneApp.Name = 'buttonFixPhoneApp'
@@ -442,7 +442,7 @@ $buttonFixPhoneApp = New-Object 'System.Window.Forms.Label'
 	$buttonFixPhoneApp.UseCompatibleTextRendering = $True
 
 $buttonEnableLocation = New-Object 'System.Window.Forms.Label'
-	$buttonEnableLocation.BackColor = '250, 100, 100'
+	$buttonEnableLocation.BackColor = '135, 216, 255'
 	$buttonEnableLocation.Font = 'Microsoft Sans Serif, 12pt'
 	$buttonEnableLocation.Location = '423, 923'
 	$buttonEnableLocation.Name = 'buttonEnableLocation'
@@ -671,7 +671,7 @@ $labelOptionalFixes = New-Object 'System.Window.Forms.Label'
 	$labelOptionalFixes.UseCompatibleTextRendering = $True
 
 $rebloat = New-Object 'System.Window.Forms.Label'
-	$rebloat.BackColor = '250, 100, 100'
+	$rebloat.BackColor = '135, 216, 255'
 	$rebloat.Font = 'Microsoft Sans Serif, 12pt'
 	$rebloat.Location = '22, 1020'
 	$rebloat.Name = 'buttonReinstallBloatware'
@@ -682,7 +682,7 @@ $rebloat = New-Object 'System.Window.Forms.Label'
 	$rebloat.UseCompatibleTextRendering = $True
 
 $ReinstallMsStore = New-Object 'System.Window.Forms.Label'
-	$ReinstallMsStore.BackColor = '250, 100, 100'
+	$ReinstallMsStore.BackColor = '135, 216, 255'
 	$ReinstallMsStore.Font = 'Microsoft Sans Serif, 12pt'
 	$ReinstallMsStore.Location = '304, 1020'
 	$ReinstallMsStore.Name = 'buttonReinstallMSStore'
@@ -693,7 +693,7 @@ $ReinstallMsStore = New-Object 'System.Window.Forms.Label'
 	$ReinstallMsStore.UseCompatibleTextRendering = $True
 
 $ReinstallOndrive = New-Object 'System.Window.Forms.Label'
-	$ReinstallOndrive.BackColor = '250, 100, 100'
+	$ReinstallOndrive.BackColor = '135, 216, 255'
 	$ReinstallOndrive.Font = 'Microsoft Sans Serif, 12pt'
 	$ReinstallOndrive.Location = '586, 1020'
 	$ReinstallOndrive.Name = 'buttonReinstallOndrive'
@@ -704,7 +704,7 @@ $ReinstallOndrive = New-Object 'System.Window.Forms.Label'
 	$ReinstallOndrive.UseCompatibleTextRendering = $True
 
 $labelboxupdatereset = New-Object 'System.Window.Forms.Label'
-	$labelboxupdatereset.BackColor = '250, 100, 100'
+	$labelboxupdatereset.BackColor = '135, 216, 255'
 	$labelboxupdatereset.Font = 'Microsoft Sans Serif, 12pt'
 	$labelboxupdatereset.Location = '868, 1020'
 	$labelboxupdatereset.Name = 'buttonWindowsupdatereset'
@@ -1964,7 +1964,7 @@ $buttondisableBackgroundApps.Add_Click({
 $buttonenableClipboardHistory.Add_Click({
 
     $buttonenableClipboardHistory.BackColor = '255, 160, 160'
-    $buttondisableClipboardHistory.BackColor = '250, 100, 100'
+    $buttondisableClipboardHistory.BackColor = '135, 216, 255'
     Write-Host "`nRestoring Clipboard History..."
         
     Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Clipboard" -Name "EnableClipboardHistory" -Type DWord -Value "1"
@@ -1977,7 +1977,7 @@ $buttonenableClipboardHistory.Add_Click({
 $buttondisableClipboardHistory.Add_Click({
 
     $buttondisableClipboardHistory.BackColor = '255, 160, 160'
-    $buttonenableClipboardHistory.BackColor = '250, 100, 100'
+    $buttonenableClipboardHistory.BackColor = '135, 216, 255'
     	Write-Host "`nDisabling Clipboard History..."
 	Remove-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Clipboard" -Name "EnableClipboardHistory" -ErrorAction SilentlyContinue
     Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\System" -Name "AllowClipboardHistory" -ErrorAction SilentlyContinue 
@@ -1989,7 +1989,7 @@ $buttondisableClipboardHistory.Add_Click({
 $buttonenableSetTimerResolution.Add_Click({
 
 $buttonenableSetTimerResolution.BackColor = '255, 160, 160'
-$buttondisableSetTimerResolution.BackColor = '250, 100, 100'
+$buttondisableSetTimerResolution.BackColor = '135, 216, 255'
 $nonea = bcdedit /set useplatformclock no
 $nonea = bcdedit /set useplatformtick yes
 $nonea = bcdedit /set disabledynamictick yes
@@ -2015,7 +2015,7 @@ Write-Host "Current Timer Res: $ntqtrcur `r`nTimer Res Minimum: $ntqtrmin `r`nTi
 
 $buttondisableSetTimerResolution.Add_Click({
 $buttondisableSetTimerResolution.BackColor = '255, 160, 160'
-$buttonenableSetTimerResolution.BackColor = '250, 100, 100'
+$buttonenableSetTimerResolution.BackColor = '135, 216, 255'
 $nonea = bcdedit /set useplatformclock no
 $nonea = bcdedit /set useplatformtick yes
 $nonea = bcdedit /set disabledynamictick yes
